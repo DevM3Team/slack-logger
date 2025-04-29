@@ -5,5 +5,15 @@
             "M3team\\SlackLogger\\": "src"
         }
     },
-    "require": {}
+
+    "require": {
+        "laravel/framework": ">=10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "M3team\\SlackLogger\\SlackLoggerServiceProvider"
+            ]
+        }
+    }
 }
