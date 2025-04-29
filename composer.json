@@ -1,0 +1,9 @@
+{
+    "name": "m3team/slack-logger",
+    "autoload": {
+        "psr-4": {
+            "M3team\\SlackLogger\\": "src"
+        }
+    },
+    "require": {}
+}
